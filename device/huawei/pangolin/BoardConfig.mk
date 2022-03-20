@@ -4,4 +4,4 @@ include vendor/dot/config/BoardConfigSoong.mk
 TARGET_OTA_ASSERT_DEVICE := phone
 TARGET_KERNEL_SOURCE := kernel/huawei/pangolin
 TARGET_KERNEL_CONFIG := kernel/huawei/pangolin/arch/arm64/configs/merge_kirin710_defconfig
-
+BUILD_BROKEN_DUP_RULES := true

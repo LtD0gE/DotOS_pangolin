@@ -14,5 +14,5 @@
 # limitations under the License.
 
 LOCAL_PATH := $(call my-dir)
-
+LOCAL_SDK_VERSION := current
 include $(call all-makefiles-under,$(LOCAL_PATH))
